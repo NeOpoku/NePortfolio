@@ -8,6 +8,7 @@ import "./index.css";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <> 
@@ -17,7 +18,8 @@ function App() {
           isLoaded ? "opacity-100" : "opacity-0"
         } bg-cream text-brown-100`}
       >
-        <NavBar />
+        <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
     </div> 
     </>
