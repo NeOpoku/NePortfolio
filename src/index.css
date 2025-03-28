@@ -20,7 +20,7 @@ color: #5D4037;
     }
   }
 
-  .animate-loading {
+  .animate-loading-bar {
     animation: loading 0.8s ease infinite;
   }
 }
