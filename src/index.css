@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html, body {
+margin: 0;
+padding: 0;
+font-family: "league Script", cursive, "Lato", sans-serif;
+font-weight: 400;
+font-style: normal;
+background: #faf4ef;
+color: #5D4037;
+}
+
+@layer utilities {
+  @keyframes loading {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+
+  .animate-loading {
+    animation: loading 0.8s ease infinite;
+  }
+}
