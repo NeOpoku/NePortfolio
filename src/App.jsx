@@ -6,8 +6,8 @@ import "./index.css";
 function App() {
   return (
     <> 
-  <LoadingScreen /> 
-  </>
+    {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
+    </>
   );
 }
 
