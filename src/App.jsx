@@ -4,6 +4,10 @@ import './App.css'
 import { LoadingScreen } from './components/LoadingScreen';
 import { NavBar } from './components/NavBar';
 import { MobileMenu } from './components/MobileMenu';
+import { Home } from './components/sections/Home';
+import { AboutMe } from './components/sections/AboutMe';
+import { Projects } from './components/sections/Projects';
+import { Contact } from './components/sections/Contact';
 import "./index.css";
 
 function App() {
@@ -20,6 +24,10 @@ function App() {
       >
         <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Home />
+        <AboutMe />
+        <Projects />
+        <Contact />
 
     </div> 
     </>
