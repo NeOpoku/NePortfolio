@@ -8,7 +8,7 @@ import { Home } from './components/sections/Home';
 import { AboutMe } from './components/sections/AboutMe';
 import { Projects } from './components/sections/Projects';
 //import { Resume } from './components/sections/Resume';
-//import { Contact } from './components/sections/Contact';
+import { Contact } from './components/sections/Contact';
 import "./index.css";
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
         <Home />
         <AboutMe />
         <Projects />
+        <Contact />
       
    
 

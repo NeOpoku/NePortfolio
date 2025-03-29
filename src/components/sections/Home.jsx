@@ -5,7 +5,7 @@ export const Home = () => {
         className="min-h-screen flex items-center justify-center relative bg-cream font-league Script"
       >
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-green-400 bg-clip-text text-transparent leading-tight font-league Script">
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-brown-400 bg-clip-text text-transparent leading-tight font-league Script">
             Hi, I'm Imani
           </h1>
   

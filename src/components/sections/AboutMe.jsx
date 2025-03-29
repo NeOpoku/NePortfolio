@@ -16,7 +16,7 @@ export const AboutMe = () => {
     >
       
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-brown-500 to-terracotta-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-6xl font-bold mb-8 bg-gradient-to-r from-brown-500 to-green-400 bg-clip-text text-transparent text-center font-league">
             About Me
           </h2>
 

@@ -1,5 +1,52 @@
 @import "tailwindcss";
 
+/* Define your color palette with CSS variables */
+:root {
+  --color-background: #faf4ef; /* Light background */
+  --color-text: #5D4037;       /* Main text color */
+  --color-primary: #5D4037;    /* Primary color (same as text) */
+  --color-secondary: #8D6E63;  /* A complementary secondary color */
+  --color-accent: #D7CCC8;     /* Accent color for highlights */
+  --color-highlight: #A1887F;  /* For hover states or emphasis */
+  --color-link: #795548;       /* A distinct color for links */
+  --color-olivegreen: #556B2F;    /* Olive green added to the theme */
+}
+
+/* Apply the palette to basic elements */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+/* Example usage on links */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-olivegreen);
+}
+
+/* Example usage on a button */
+.button {
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--color-secondary);
+}
+
 
 html, body {
 margin: 0;

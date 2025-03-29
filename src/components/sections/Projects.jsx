@@ -7,7 +7,7 @@ export const Projects = () => {
     >
     
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-brown-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-6xl font-bold mb-8 bg-gradient-to-r from-green-500 to-brown-400 bg-clip-text text-transparent text-center font-league">
             {" "}
             Featured Projects
           </h2>
