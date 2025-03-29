@@ -2,21 +2,21 @@ export const Home = () => {
     return (
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center relative bg-cream font-lato"
+        className="min-h-screen flex items-center justify-center relative bg-cream font-league Script"
       >
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-brown-500 to-terracotta-400 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-green-400 bg-clip-text text-transparent leading-tight font-league Script">
             Hi, I'm Imani
           </h1>
   
-          <p className="text-brown-400 text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-brown-400 text-lg mb-8 max-w-lg mx-auto font-Lato">
             For years, I worked as an LPN, where I learned the value of empathy,
             precision, and human connection. Now, I'm transitioning into code with a clear goal: 
             to combine my healthcare expertise with the power of technology. I’m passionate 
             about developing digital solutions that enhance patient care, streamline processes, 
             and ultimately make a positive impact on people’s lives.
           </p>
-          <p className="text-brown-400 text-lg mb-8 max-w-lg mx-auto">
+          <p className="text-brown-400 text-lg mb-8 max-w-lg mx-auto font-Lato">
             Welcome to my portfolio—where compassion meets code, and technology transforms 
             experience into meaningful solutions.
           </p>

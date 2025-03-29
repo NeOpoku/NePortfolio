@@ -11,9 +11,10 @@ export const AboutMe = () => {
 
   return (
     <section
-      id="about"
-      className="min-h-screen flex items-center justify-center py-20 bg-cream font-lato"
+      id="aboutme"
+      className="min-h-screen flex items-center justify-center py-20"
     >
+      
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-brown-500 to-terracotta-400 bg-clip-text text-transparent text-center">
             About Me
@@ -22,13 +23,14 @@ export const AboutMe = () => {
           <div className="rounded-xl p-8 border border-brown-500/10 hover:-translate-y-1 transition-all">
             <p className="text-brown-400 mb-6 text-lg">
               After years of compassionate care as a Licensed Practical Nurse,
-              I have embarked on a new journey into the world of coding. My goal is to combine my healthcare expertise with modern technology to create innovative solutions that improve patient care and streamline healthcare processes.
+              I have embarked on a new journey into the world of coding. 
+              My goal is to combine my healthcare expertise with modern technology to create innovative solutions that improve patient care and streamline healthcare processes.
             </p>
            
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4 text-brown-500">Frontend</h3>
+              <div className="rounded-xl p-8 hover:-translate-y-1 transition-all">
+                <h3 className="text-xl font-bold mb-6 text-brown-500">Frontend</h3>
                 <div className="flex flex-wrap gap-2">
                   {frontendSkills.map((tech, key) => (
                     <span

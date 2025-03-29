@@ -4,12 +4,21 @@
 html, body {
 margin: 0;
 padding: 0;
-font-family: "league Script", cursive, "Lato", sans-serif;
+font-family:  "Lato", sans-serif;
 font-weight: 400;
 font-style: normal;
 background: #faf4ef;
 color: #5D4037;
 }
+
+.font-Lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.font-league {
+  font-family: 'League Script', cursive;
+}
+
 
 @layer utilities {
   @keyframes blink {

@@ -7,7 +7,8 @@ import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/sections/Home';
 import { AboutMe } from './components/sections/AboutMe';
 import { Projects } from './components/sections/Projects';
-import { Contact } from './components/sections/Contact';
+//import { Resume } from './components/sections/Resume';
+//import { Contact } from './components/sections/Contact';
 import "./index.css";
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
         <Home />
         <AboutMe />
         <Projects />
-        <Contact />
+      
+   
 
     </div> 
     </>
