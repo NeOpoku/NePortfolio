@@ -34,7 +34,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         Home
       </a>
       <a
-        href="#about me"
+        href="#aboutme"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-[#5D4037] my-4 transform transition-transform duration-300
                     ${
@@ -60,7 +60,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         Projects
       </a>
       <a
-        href="#resume"
+        href="#Resume"
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-[#5D4037] my-4 transform transition-transform duration-300
                     ${

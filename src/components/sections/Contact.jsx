@@ -31,7 +31,7 @@ export const Contact = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
-          <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-brown-500 to-green-400 bg-clip-text text-transparent text-center font-league">
+          <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-brown-500 to-green-800 bg-clip-text text-transparent text-center font-league">
             {" "}
             Get In Touch
           </h2>

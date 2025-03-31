@@ -11,7 +11,7 @@ export const NavBar = ({ menuOpen, setMenuOpen }) => {
 
           <a href="#home" className="font-mono text-xl font-bold text-cream">
             {" "}
-            Ne<span className="text-brown-700">Portfolio</span>{" "}
+            Ne<span className="text-green-800">Portfolio</span>{" "}
           </a>
           <div
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
@@ -43,7 +43,7 @@ export const NavBar = ({ menuOpen, setMenuOpen }) => {
               Projects{" "}
             </a>
             <a
-              href="#resume"
+              href="#Resume"
               className="text-brown-300 hove:text-B7BFA8 transition-colors"
             >
               {" "}
